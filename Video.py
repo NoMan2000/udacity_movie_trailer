@@ -1,7 +1,7 @@
 import webbrowser
 
 
-class Video:
+class Video(object):
     video_types = [
         None,
         'commercial',
