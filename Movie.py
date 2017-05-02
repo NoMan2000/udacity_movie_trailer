@@ -22,6 +22,7 @@ class Movie(Video):
             description (str): The description for the movie
             video_url (str, optional): An optional video url that can be clicked to open.
                 Defaults to None.
+            movie_poster (str, optional): An optional movie poster that will be displayed on page load.
        """
         super(Movie, self).__init__(title, duration, description, video_url, 'movie')
         if bool(movie_poster):
